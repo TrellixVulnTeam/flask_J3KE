@@ -1,0 +1,19 @@
+{% extends 'common/base.html' %}
+
+{% block title %}
+用户登录
+{% endblock %}
+{% block page_content %}
+    <div class="row">
+        <div class="col-lg-4 col-lg-offset-4" style="border: 1px solid black;padding: 20px">
+            <h1>身份认证</h1>
+            {{ wtf.quick_form(form) }}
+        </div>
+    </div>
+{% endblock %}
+
+
+
+
+
+

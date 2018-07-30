@@ -1,0 +1,2 @@
+1.typeerror: None object has no len()
+    原因：生成token未提交（db.session.commit()），导致s.loads(token)出来的字典的value为None

@@ -1,0 +1,9 @@
+<h1>hello {{ username }}</h1>
+<p>欢迎注册Paddy虚假微博的注册</p>
+<p>请点击链接完成激活<a href="{{ url_for('user.activate',token=token,_external=True) }}">激活</a></p>
+{#_external
+{#如果设置为True，则生成一个绝对路径URL#}
+{# 包含用户信息,有效时间 #}
+
+
+
